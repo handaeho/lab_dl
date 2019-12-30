@@ -30,7 +30,7 @@ def numerical_diff(fn, x):
     return (fn(x + h) - fn(x - h)) / (2 * h)
 
 
-def numerical_gradient(fn, x):
+def _numerical_gradient(fn, x):
     """
     독립 변수 n개를 갖는 함수 fn에 대한 편미분
 
@@ -39,7 +39,7 @@ def numerical_gradient(fn, x):
     :return: fn의 각 편미분 값들의 배열
     """
     h = 1e-4
-    x = x.astype(np.float) # 실수 타입
+    x = x.astype(np.float, copy=False) # x는 실수 타입이 되어야 한다.('copy=False'는 원본 데이터의 타입 자체를 변화)
     gradient = np.zeros_like(x) # 이는 np.zeros(x.shape)와 같음(x의 행, 열 크기와 같은 영행렬)
 
     for i in range(x.size): # 점 x의 리스트 사이즈만큼(전체 원소 개수만큼)
@@ -52,6 +52,19 @@ def numerical_gradient(fn, x):
         x[i] = ith_val # 한 변수에 대해 미분이 끝나고, 다음 변수에 대한 미분 계산을 위해 원래의 값으로 복원
 
     return gradient
+
+
+def numerical_gradient(fn, x):
+    """ x = [[x11, x12, x13, ...] ,
+            [x21, x22, x23, ...],
+            [x31, x32, x33, ...]]  """
+    if x.ndim == 1: # x가 1차원 배열이라면
+        return _numerical_gradient(fn, x)
+    else: # x가 2차원 배열이라면
+        grads = np.zeros_like(x) # x의 행, 열 크기와 같은 영행렬 생성
+        for i, x_i in enumerate(x): # x의 index와 value를 각각 i, x에
+            grads[i] = _numerical_gradient(fn, x_i) # 편미분 계산후, 각 위치에 결과 값
+        return grads
 
 
 def f1(x):
@@ -110,13 +123,13 @@ if __name__ == '__main__':
     print('estimate_2 =', estimate_2) # estimate_2 = 7.999999999999119
 
     # numerical_gradient() 함수를 이용한 편미분 계산
-    gradient = numerical_gradient(f2, np.array([3, 4]))
+    gradient = numerical_gradient(f2, np.array([3., 4.]))
     print('gradient =', gradient) # gradient = [6. 8.] ~> (x0=3, x1=4)에서 기울기는 각각 6, 8
 
     # 변수가 3개인 함수 f3의 편미분 계산(x0 = 1, x1 = 1, x2 = 1)
-    gradient_2 = numerical_gradient(f3, np.array([1, 1, 1]))
+    gradient_2 = numerical_gradient(f3, np.array([1., 1., 1.]))
     print('gradient_2 =', gradient_2) # gradient_2 = [1. 2. 3.00000001]
 
     # 변수가 2개인 함수 f4의 편미분 계산(x0 = 1, x1 = 2)
-    gradient_3 = numerical_gradient(f4, np.array([1, 2]))
+    gradient_3 = numerical_gradient(f4, np.array([1., 2.]))
     print('gradient_3 =', gradient_3) # gradient_3 = [4. 5.]
