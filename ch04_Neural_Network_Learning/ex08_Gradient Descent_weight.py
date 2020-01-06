@@ -4,8 +4,8 @@ weight 행렬에 Gradient Descent(경사 하강법) 적용
 import numpy as np
 
 from ch03_Neural_Network.ex11_Mini_Batch import softmax
-from ch04_Nerual_Network_Learning.ex03_CEE import cross_entropy
-from ch04_Nerual_Network_Learning.ex05_Differential import numerical_gradient
+from ch04_Neural_Network_Learning.ex03_CEE import cross_entropy
+from ch04_Neural_Network_Learning.ex05_Differential import numerical_gradient
 
 
 class SimpleNetwork:

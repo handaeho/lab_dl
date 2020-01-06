@@ -14,7 +14,7 @@ Gradient Descent(경사 하강법) = '기울기'를 사용해 '함수의 최소�
 import numpy as np
 import matplotlib.pyplot as plt
 
-from ch04_Nerual_Network_Learning.ex05_Differential import numerical_gradient
+from ch04_Neural_Network_Learning.ex05_Differential import numerical_gradient
 
 
 def gradient_method(fn, x_init, lr=0.01, step=100):

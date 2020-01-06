@@ -7,7 +7,7 @@ Gradient (기울기) = '기울기'는 '각 지점에서 낮아지는 방향'이�
 import numpy as np
 import matplotlib.pyplot as plt
 
-from ch04_Nerual_Network_Learning.ex05_Differential import numerical_gradient
+from ch04_Neural_Network_Learning.ex05_Differential import numerical_gradient
 
 
 def fn(x):
