@@ -1,6 +1,8 @@
 """
 ex10의 Two_Layer_Neural_Network Test
 """
+import pickle
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -17,7 +19,7 @@ if __name__ == '__main__':
     # TwoLayerNetwork 클래스 객체 생성
     neural_net = TwoLayerNetwork(input_size=784, hidden_size=32, output_size=10)
 
-    epochs = 100 # 학습 횟수
+    epochs = 50 # 학습 횟수
     batch_size = 128 # 한번에 학습 시키는 Input Data 개수
     learning_rate = 0.1 # learning_rate(학습률)
 
@@ -113,3 +115,7 @@ if __name__ == '__main__':
     plt.title('ACCURACY')
     plt.legend()
     plt.show()
+
+    # 신경망에서 학습이 모두 끝난 후, 파라미터(Weight/bias 행렬)를 pickle 파일로 저장
+    with open('Weight_bias.pickle', 'wb') as f:
+        pickle.dump(neural_net.params, f, pickle.HIGHEST_PROTOCOL)
