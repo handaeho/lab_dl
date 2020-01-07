@@ -27,8 +27,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
   </component>
-  <component name="RunManager" selected="Python.ex12_params_pickle">
-    <configuration name="ex05_Relu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ex04_AdaGrad">
+    <configuration name="ex01_matplot3d (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab-dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -36,11 +36,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch05_Back_Propagation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06_Optimization" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch05_Back_Propagation/ex05_Relu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06_Optimization/ex01_matplot3d.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -49,7 +49,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex07_Affine" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex01_matplot3d" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab-dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,11 +57,74 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch05_Back_Propagation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06_Optimization" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch05_Back_Propagation/ex07_Affine.py" />
+      <option name="SCRIPT_NAME" value="C:\dev\lab-dl\ch06_Optimization\ex01_matplot3d.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex02_SGD" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab-dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06_Optimization" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06_Optimization/ex02_SGD.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex03_Momentum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab-dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06_Optimization" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06_Optimization/ex03_Momentum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex04_AdaGrad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab-dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch06_Optimization" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch06_Optimization/ex04_AdaGrad.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,76 +154,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex11 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab-dl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/ex11 (1).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex11_ex10's_Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab-dl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch05_Back_Propagation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch05_Back_Propagation/ex11_ex10's_Test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex12_params_pickle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab-dl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch05_Back_Propagation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch05_Back_Propagation/ex12_params_pickle.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ex12_params_pickle" />
-        <item itemvalue="Python.ex11_ex10's_Test" />
-        <item itemvalue="Python.ex11 (1)" />
-        <item itemvalue="Python.ex07_Affine" />
-        <item itemvalue="Python.ex05_Relu" />
+        <item itemvalue="Python.ex04_AdaGrad" />
+        <item itemvalue="Python.ex03_Momentum" />
+        <item itemvalue="Python.ex02_SGD" />
+        <item itemvalue="Python.ex01_matplot3d (1)" />
+        <item itemvalue="Python.ex01_matplot3d" />
       </list>
     </recent_temporary>
   </component>
@@ -194,22 +194,22 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="998" y="310" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1577752674915" />
-    <state width="1086" height="295" key="GridCell.Tab.0.bottom" timestamp="1578364365524">
+    <state width="1014" height="295" key="GridCell.Tab.0.bottom" timestamp="1578384538594">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1086" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1578364365524" />
-    <state width="1086" height="295" key="GridCell.Tab.0.center" timestamp="1578364365524">
+    <state width="1014" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1578384538594" />
+    <state width="1014" height="295" key="GridCell.Tab.0.center" timestamp="1578384538593">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1086" height="295" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1578364365524" />
-    <state width="1086" height="295" key="GridCell.Tab.0.left" timestamp="1578364365524">
+    <state width="1014" height="295" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1578384538593" />
+    <state width="1014" height="295" key="GridCell.Tab.0.left" timestamp="1578384538593">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1086" height="295" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1578364365524" />
-    <state width="1086" height="295" key="GridCell.Tab.0.right" timestamp="1578364365524">
+    <state width="1014" height="295" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1578384538593" />
+    <state width="1014" height="295" key="GridCell.Tab.0.right" timestamp="1578384538593">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1086" height="295" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1578364365524" />
+    <state width="1014" height="295" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1578384538593" />
     <state width="1031" height="373" key="GridCell.Tab.1.bottom" timestamp="1578301442774">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -250,9 +250,13 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="0" y="0" width="917" height="803" key="dock-window-5/0.0.1920.1160@0.0.1920.1160" timestamp="1578362709861" />
-    <state x="1013" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1578297509378">
+    <state x="-8" y="86" width="885" height="803" key="dock-window-6" timestamp="1578380829200">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="1013" y="260" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1578297509378" />
+    <state x="-8" y="86" width="885" height="803" key="dock-window-6/0.0.1920.1160@0.0.1920.1160" timestamp="1578380829200" />
+    <state x="1013" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1578385547386">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="1013" y="260" width="672" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1578385547386" />
   </component>
 </project>
