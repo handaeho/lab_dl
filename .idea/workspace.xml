@@ -27,49 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
   </component>
-  <component name="RunManager" selected="Python.ex07_Affine">
-    <configuration name="ex02_Basic_Layer_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab-dl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch05_Back_Propagation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch05_Back_Propagation/ex02_Basic_Layer_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex03_Basic_Layer_3_p.160" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab-dl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch05_Back_Propagation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch05_Back_Propagation/ex03_Basic_Layer_3_p.160.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ex11_ex10's_Test">
     <configuration name="ex04_Sigmoid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab-dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,13 +112,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ex11 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab-dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/ex11 (1).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex11_ex10's_Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab-dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch05_Back_Propagation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch05_Back_Propagation/ex11_ex10's_Test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex11_ex10's_Test" />
+        <item itemvalue="Python.ex11 (1)" />
         <item itemvalue="Python.ex07_Affine" />
         <item itemvalue="Python.ex05_Relu" />
         <item itemvalue="Python.ex04_Sigmoid" />
-        <item itemvalue="Python.ex03_Basic_Layer_3_p.160" />
-        <item itemvalue="Python.ex02_Basic_Layer_2" />
       </list>
     </recent_temporary>
   </component>
@@ -194,22 +194,22 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="998" y="310" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1577752674915" />
-    <state width="1899" height="295" key="GridCell.Tab.0.bottom" timestamp="1578305935633">
+    <state width="1086" height="295" key="GridCell.Tab.0.bottom" timestamp="1578363473811">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1899" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1578305935633" />
-    <state width="1899" height="295" key="GridCell.Tab.0.center" timestamp="1578305935633">
+    <state width="1086" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1578363473811" />
+    <state width="1086" height="295" key="GridCell.Tab.0.center" timestamp="1578363473811">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1899" height="295" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1578305935633" />
-    <state width="1899" height="295" key="GridCell.Tab.0.left" timestamp="1578305935633">
+    <state width="1086" height="295" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1578363473811" />
+    <state width="1086" height="295" key="GridCell.Tab.0.left" timestamp="1578363473811">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1899" height="295" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1578305935633" />
-    <state width="1899" height="295" key="GridCell.Tab.0.right" timestamp="1578305935633">
+    <state width="1086" height="295" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1578363473811" />
+    <state width="1086" height="295" key="GridCell.Tab.0.right" timestamp="1578363473811">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1899" height="295" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1578305935633" />
+    <state width="1086" height="295" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1578363473811" />
     <state width="1031" height="373" key="GridCell.Tab.1.bottom" timestamp="1578301442774">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -234,6 +234,22 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="0" y="0" width="970" height="803" key="dock-window-1/0.0.1920.1160@0.0.1920.1160" timestamp="1578276921730" />
+    <state x="0" y="0" width="920" height="803" key="dock-window-2" timestamp="1578361605154">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="0" y="0" width="920" height="803" key="dock-window-2/0.0.1920.1160@0.0.1920.1160" timestamp="1578361605154" />
+    <state x="762" y="68" width="915" height="803" key="dock-window-3" timestamp="1578362023710">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="762" y="68" width="915" height="803" key="dock-window-3/0.0.1920.1160@0.0.1920.1160" timestamp="1578362023710" />
+    <state x="0" y="0" width="1025" height="803" key="dock-window-4" timestamp="1578362561982">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="0" y="0" width="1025" height="803" key="dock-window-4/0.0.1920.1160@0.0.1920.1160" timestamp="1578362561982" />
+    <state x="0" y="0" width="917" height="803" key="dock-window-5" timestamp="1578362709861">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="0" y="0" width="917" height="803" key="dock-window-5/0.0.1920.1160@0.0.1920.1160" timestamp="1578362709861" />
     <state x="1013" y="260" width="672" height="678" key="search.everywhere.popup" timestamp="1578297509378">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>

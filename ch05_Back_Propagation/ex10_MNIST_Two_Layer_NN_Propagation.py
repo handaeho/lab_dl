@@ -13,30 +13,30 @@ from ch05_Back_Propagation.ex07_Affine import Affine
 from ch05_Back_Propagation.ex08_Softmax_Loss import SoftmaxWithLoss
 from dataset.mnist import load_mnist
 
-np.random.seed(106)
-
 
 class TwoLayerNetwork:
     def __init__(self, input_size, hidden_size, output_size, weight_init_std=0.01):
         """
         신경망의 구조 결정
         """
+        np.random.seed(106)
+
         # Y = X @ W + b
         # Weight / bias 행렬 초기화
-        self.parms = dict() # W/b가 저장될 dict
-        self.parms['W1'] = weight_init_std * np.random.randn(input_size, hidden_size)
-        self.parms['b1'] = np.zeros(hidden_size)
-        self.parms['W2'] = weight_init_std * np.random.randn(hidden_size, output_size)
-        self.parms['b2'] = np.zeros(output_size)
+        self.params = dict() # W/b가 저장될 dict
+        self.params['W1'] = weight_init_std * np.random.randn(input_size, hidden_size)
+        self.params['b1'] = np.zeros(hidden_size)
+        self.params['W2'] = weight_init_std * np.random.randn(hidden_size, output_size)
+        self.params['b2'] = np.zeros(output_size)
 
         # 계층 생성
         self.layers = OrderedDict()
         # ~> OrderedDict(): 순서가 있는 dict. dict에 추가한 순서를 기억한다.
         # 그래서 'Forward Propagation'에서는 추가한 순서대로 각 layer의 forward() 메소드를 호출하고,
         # 'Back Propagation'에서는 그 반대의 순서대로 각 layer의 backward() 메소드를 호출하면 된다.
-        self.layers['affine1'] = Affine(self.parms['W1'], self.parms['b1'])
+        self.layers['affine1'] = Affine(self.params['W1'], self.params['b1'])
         self.layers['relu'] = Relu()
-        self.layers['affine2'] = Affine(self.parms['W2'], self.parms['b2'])
+        self.layers['affine2'] = Affine(self.params['W2'], self.params['b2'])
 
         self.last_layer = SoftmaxWithLoss()
 
@@ -129,7 +129,7 @@ class TwoLayerNetwork:
         gradients = {} # W/b 행렬에 대한 미분값을 저장할 dict
         gradients['W1'] = self.layers['affine1'].dW
         gradients['b1'] = self.layers['affine1'].db
-        gradients['W2'] = self.layers['affine2'].db
+        gradients['W2'] = self.layers['affine2'].dW
         gradients['b2'] = self.layers['affine2'].db
 
         return gradients
@@ -147,8 +147,8 @@ if __name__ == '__main__':
     neural_net = TwoLayerNetwork(input_size=784, hidden_size=32, output_size=10)
 
     # TwoLayerNetwork() 클래스에서 구성된 W / b 행렬 형태
-    for key in neural_net.parms:
-        print(key, ':', neural_net.parms[key].shape)
+    for key in neural_net.params:
+        print(key, ':', neural_net.params[key].shape)
         # ~> W1 : (784, 32)  b1 : (32,)  W2 : (32, 10)  b2 : (10,)
 
     # TwoLayerNetwork() 클래스에서 구성된 각 layer 단계
