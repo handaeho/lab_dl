@@ -57,7 +57,7 @@ filter[1, 1, 0] = 1.0
 
 # 이미지와 필터를 convolution 연산
 transformed_conv = convolve(img_pixel, filter, mode='same') / 255
-# ~> 0 ~ 1사이의 값으로 반들어 주기 위해 255로 나누고, input의 크기를 유지하기 위해 mode='same'
+# ~> 0 ~ 1사이의 값으로 만들어 주기 위해 255로 나누고, input의 크기를 유지하기 위해 mode='same'
 plt.imshow(transformed_conv)
 plt.show()
 
