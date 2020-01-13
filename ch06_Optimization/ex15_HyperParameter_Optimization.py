@@ -73,7 +73,7 @@ results_val = {}
 results_train = {}
 for _ in range(optimization_trial):
     # 탐색한 하이퍼파라미터의 범위 지정===============
-    weight_decay = 10 ** np.random.uniform(-8, -4) #np.random.uniform(a, b) ~> a, b 두 숫자 사이의 랜덤 실수를 리턴
+    weight_decay = 10 ** np.random.uniform(-8, -4) # np.random.uniform(a, b) ~> a, b 두 숫자 사이의 랜덤 실수를 리턴
     lr = 10 ** np.random.uniform(-6, -2)
     # ================================================
 
