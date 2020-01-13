@@ -13,12 +13,13 @@ def convolution_2d(x, w):
     x와 w의 cross-correlation 계산(w를 flipping X)
     """
     # convolution 연산 결과 행렬 2d ndarray의 shape ~> (rows, cols)
-    rows = x.shape[0] - w.shape[0] + 1
-    cols = x.shape[0] - w.shape[1] + 1
+    rows = x.shape[0] - w.shape[0] + 1 # xh - wh + 1
+    cols = x.shape[0] - w.shape[1] + 1 # xh - ww + 1
     conv = []
     for i in range(rows):
         for j in range(cols):
             x_sub = x[i:i+w.shape[0], j:j+w.shape[1]]
+            # x_sub = x[0:wh, 0:ww] / x[0:wh, 1:1+ww] / x[1:1+wh, 0:ww] / x[1:1+wh, 1:1+ww]
             fma = np.sum(x_sub * w)
             conv.append(fma)
 
