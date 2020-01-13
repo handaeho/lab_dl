@@ -73,8 +73,12 @@ results_val = {}
 results_train = {}
 for _ in range(optimization_trial):
     # 탐색한 하이퍼파라미터의 범위 지정===============
-    weight_decay = 10 ** np.random.uniform(-8, -4) # np.random.uniform(a, b) ~> a, b 두 숫자 사이의 랜덤 실수를 리턴
+    weight_decay = 10 ** np.random.uniform(-8, -4) 
+    # np.random.uniform(a, b) ~> a, b 두 숫자 사이의 랜덤 실수를 리턴
+    # 10^-8 ~ 10^-4 사이의 가중치 감소 계수 적용을 위함
     lr = 10 ** np.random.uniform(-6, -2)
+    # 10^-6 ~ 10^-4 사이의 학습률 범위 적용을 위함
+    
     # ================================================
 
     val_acc_list, train_acc_list = __train(lr, weight_decay)
