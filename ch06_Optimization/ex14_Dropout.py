@@ -1,3 +1,20 @@
+"""
+DropOut(드롭아웃)
+= 뉴런을 임의로 삭제하면서 학습하는 방법.
+훈련시에 뉴런을 무작위로 삭제하며 학습하게 되고, 삭제된 뉴런은 신호를 전달하지 않는다.
+
+훈련 할 때 데이터를 흘릴떄마다 삭제할 뉴런을 무작위로 선택하고 시험 할 때에는 모든 뉴런에 신호를 전달한다.
+단, 시험할 때는 각 뉴런의 출력에 훈련할 때 삭제하지 않은 비율을 곱하여 출력한다.
+
+(참고)
+앙상블 학습(Ensemble Learning)
+~> '개별적으로 학습시킨 여러 모델의 출력의 평균'을 최종 출력으로 삼는 방식.
+예를 들어, 네트워크 5개를 따로따로 학습시키고, 시험시에는 그 5개의 출력에 대해 평균을 내어 답하는 것.
+
+앙상블 학습은 드롭아웃과 유사하다.
+드롭아웃이 학습 할 때 뉴런을 무작위로 삭제하는 행위를 매번 다른 모델을 학습시키는 것으로도 볼 수 있기 때문이다.
+그리고 추론 시에는 뉴런의 출력에 삭제한 비율을 곱함으로써 앙상블 학습처럼 평균을 내는것과 같은 효과를 얻는다.
+"""
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -41,11 +58,13 @@ optimizer = Sgd(learning_rate=0.01)  # optimizer
 
 for epoch in range(epochs):
     indices = np.arange(train_size)
-    np.random.shuffle(indices)
+    np.random.shuffle(indices) # 무작위 선택을 위한 셔플(무작위 삭제는 무작위 선택과 같으므로)
     for i in range(iter_per_epoch):
+        # 미니배치 사이즈만큼 무작위로 선택
         iter_idx = indices[(i * mini_batch_size):((i+1) * mini_batch_size)]
         x_batch = X_train[iter_idx]
         y_batch = Y_train[iter_idx]
+        # 무직위로 선택된 대상들에 대해서만 기울기를 계산하고 파라미터 갱신
         gradients = neural_net.gradient(x_batch, y_batch)
         optimizer.update(neural_net.params, gradients)
 
