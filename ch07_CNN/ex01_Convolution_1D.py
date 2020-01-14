@@ -10,6 +10,12 @@ CNN(합성곱 신경망, Convolutional Neural Network)
 
    사실 딥러닝에서는 이를 잘 구분하지 않으며,
    CNN에서는 가중치 행렬을 난수로 생성하고 gradient descent등을 사용해 갱신하기 때문에 대부분의 경우 '교차상관 연산'을 사용한다.
+
+<Output의 크기 계산 공식>
+입력 크기(H, W) / 필터 크기(FH, FW) / 출력 크기(OH, OW) / 패딩 P / 스트라이트 S 일 때,
+    Output Height OH = (H + 2P - FH) / S + 1
+    Output Width OW = (W + 2P - FW) / S + 1
+단, (OH, OW)는 모두 '정수로 나누어 떨어져야'한다.
 """
 import numpy as np
 

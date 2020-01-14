@@ -2,6 +2,12 @@
 2차원 Convolution 연산
 
 2차원 Convolution 연산에서의 input x는 2차원이므로 필터 w 역시도 2차원이어야한다.
+
+<Output의 크기 계산 공식>
+입력 크기(H, W) / 필터 크기(FH, FW) / 출력 크기(OH, OW) / 패딩 P / 스트라이트 S 일 때,
+    Output Height OH = (H + 2P - FH) / S + 1
+    Output Width OW = (W + 2P - FW) / S + 1
+단, (OH, OW)는 모두 '정수로 나누어 떨어져야'한다.
 """
 import numpy as np
 

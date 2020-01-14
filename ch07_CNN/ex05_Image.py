@@ -53,7 +53,8 @@ filter = np.zeros((3, 3, 3))
 print('filter =', filter)
 
 # filter의 일부 값 수정
-filter[1, 1, 0] = 1.0
+filter[1, 1, 0] = 255
+print('filter =', filter)
 
 # 이미지와 필터를 convolution 연산
 transformed_conv = convolve(img_pixel, filter, mode='same') / 255

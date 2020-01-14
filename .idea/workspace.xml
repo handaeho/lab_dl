@@ -33,28 +33,7 @@
       <recent name="C:\dev\lab-dl" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ex05_Image">
-    <configuration name="ex01_Convolution_1D" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab-dl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07_CNN" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07_CNN/ex01_Convolution_1D.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ex08_Pooling">
     <configuration name="ex02_Convolution_2D" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lab-dl" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,48 +47,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07_CNN/ex02_Convolution_2D.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex03_Padding" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab-dl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07_CNN" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07_CNN/ex03_Padding.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex04_Conv_Pad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lab-dl" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07_CNN" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07_CNN/ex04_Conv_Pad.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,13 +76,76 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ex06_Image_Index" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab-dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07_CNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07_CNN/ex06_Image_Index.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex07_Convolution_3D" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab-dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07_CNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07_CNN/ex07_Convolution_3D.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ex08_Pooling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lab-dl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch07_CNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch07_CNN/ex08_Pooling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex08_Pooling" />
+        <item itemvalue="Python.ex07_Convolution_3D" />
+        <item itemvalue="Python.ex06_Image_Index" />
         <item itemvalue="Python.ex05_Image" />
-        <item itemvalue="Python.ex04_Conv_Pad" />
-        <item itemvalue="Python.ex03_Padding" />
         <item itemvalue="Python.ex02_Convolution_2D" />
-        <item itemvalue="Python.ex01_Convolution_1D" />
       </list>
     </recent_temporary>
   </component>
@@ -179,22 +179,22 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="998" y="310" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1577752674915" />
-    <state width="1119" height="296" key="GridCell.Tab.0.bottom" timestamp="1578904598918">
+    <state width="1117" height="296" key="GridCell.Tab.0.bottom" timestamp="1578990362105">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1119" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1578904598918" />
-    <state width="1119" height="296" key="GridCell.Tab.0.center" timestamp="1578904598918">
+    <state width="1117" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1160@0.0.1920.1160" timestamp="1578990362105" />
+    <state width="1117" height="296" key="GridCell.Tab.0.center" timestamp="1578990362105">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1119" height="296" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1578904598918" />
-    <state width="1119" height="296" key="GridCell.Tab.0.left" timestamp="1578904598918">
+    <state width="1117" height="296" key="GridCell.Tab.0.center/0.0.1920.1160@0.0.1920.1160" timestamp="1578990362105" />
+    <state width="1117" height="296" key="GridCell.Tab.0.left" timestamp="1578990362105">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1119" height="296" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1578904598918" />
-    <state width="1119" height="296" key="GridCell.Tab.0.right" timestamp="1578904598918">
+    <state width="1117" height="296" key="GridCell.Tab.0.left/0.0.1920.1160@0.0.1920.1160" timestamp="1578990362105" />
+    <state width="1117" height="296" key="GridCell.Tab.0.right" timestamp="1578990362105">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1119" height="296" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1578904598918" />
+    <state width="1117" height="296" key="GridCell.Tab.0.right/0.0.1920.1160@0.0.1920.1160" timestamp="1578990362105" />
     <state width="1031" height="373" key="GridCell.Tab.1.bottom" timestamp="1578561669201">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
@@ -219,14 +219,14 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="-3" y="15" width="791" height="802" key="dock-window-1/0.0.1920.1160@0.0.1920.1160" timestamp="1578905929197" />
-    <state x="0" y="0" width="920" height="803" key="dock-window-2" timestamp="1578361605154">
+    <state x="0" y="0" width="850" height="802" key="dock-window-2" timestamp="1578976619988">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="0" y="0" width="920" height="803" key="dock-window-2/0.0.1920.1160@0.0.1920.1160" timestamp="1578361605154" />
-    <state x="762" y="68" width="915" height="803" key="dock-window-3" timestamp="1578362023710">
+    <state x="0" y="0" width="850" height="802" key="dock-window-2/0.0.1920.1160@0.0.1920.1160" timestamp="1578976619988" />
+    <state x="0" y="0" width="1014" height="802" key="dock-window-3" timestamp="1578989968737">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="762" y="68" width="915" height="803" key="dock-window-3/0.0.1920.1160@0.0.1920.1160" timestamp="1578362023710" />
+    <state x="0" y="0" width="1014" height="802" key="dock-window-3/0.0.1920.1160@0.0.1920.1160" timestamp="1578989968737" />
     <state x="0" y="0" width="1025" height="803" key="dock-window-4" timestamp="1578362561982">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>

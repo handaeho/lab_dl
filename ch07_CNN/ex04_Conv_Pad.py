@@ -50,7 +50,7 @@ if __name__ == '__main__':
     print('corr =', corr) # corr = [0 2 4 6 8]
 
     # convolution 연산 / cross-correlation 연산을 2차원 데이터에 적용
-    x = np.array([[1, 2 ,3, 0], [0, 1, 2, 3], [3, 0, 1, 2], [2, 3, 0, 1]]) # input 2차원 ndarray x(4, 4)
+    x = np.array([[1, 2, 3, 0], [0, 1, 2, 3], [3, 0, 1, 2], [2, 3, 0, 1]]) # input 2차원 ndarray x(4, 4)
     w = np.array([[2, 0, 1], [0, 1, 2], [1, 0, 2]]) # 2차원 ndarray w(3, 3)
 
     # scipy.signal.convolve2d() ~> convolution 연산을 2차원 데이터에 적용
