@@ -14,7 +14,8 @@ ex) instance_name = class_name()
     instance_name(100) ~~~> 불가능(instance에 '100'이라는 값을 주고 Call 불가)
 
 그런데 Python에서는 '__call__ method'를 사용하면 instance_name을 method처럼 Call 할 수 있다.
-왜나하면, '__call__ method'가 메모리에 저장된 '__init__ method'의 class 변수 값을 바꾸기 떄문.
+ '__call__ method'가 있는 경우에, instance를 method처럼 쓰면
+ '__call__'은 '__init__'에 있는 변수의 값을 읽어와서 사용해 특정 동작을 수행 한 뒤, 리턴한다.
 
 단, class에서 '__call__ method'를 설정하지 않으면 instance를 call 할 수 없다.
 
