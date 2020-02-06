@@ -43,6 +43,7 @@ if __name__ == '__main__':
     # ReLU(Rectified Linear Unit)
     # f(x) = x if x > 0,
     #      = 0 otherwise
+
     # ELU(Exponential Linear Unit)
     # f(x) = x , if x > 0
     #      = alpha * (exp(x) - 1) , otherwise
@@ -99,12 +100,12 @@ if __name__ == '__main__':
             for obs in observations
         ])
         with tf.GradientTape() as tape:
-            loss_probs = model(np.array(observations))
-            loss = tf.reduce_mean(loss_fn(target_probs, loss_probs))
+            left_probs = model(np.array(observations))
+            loss = tf.reduce_mean(loss_fn(target_probs, left_probs))
         print(f'Iteration #{iteration}: Loss={loss.numpy()}')
         grads = tape.gradient(loss, model.trainable_variables)
         optimizer.apply_gradients(zip(grads, model.trainable_variables))
-        actions = (np.random.rand(n_envs, 1) > loss_probs.numpy()).astype(np.int32)
+        actions = (np.random.rand(n_envs, 1) > left_probs.numpy()).astype(np.int32)
         for idx, env in enumerate(environments):
             obs, reward, done, info = env.step(actions[idx][0])
             observations[idx] = obs if not done else env.reset()
